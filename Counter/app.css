@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #eff1ed;
+}
+
+.counter-container {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1,
+.counter {
+  user-select: none;
+}
+
+.counter {
+  font-size: 4rem;
+}
+
+.counter-btns {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.counter-btns button {
+  padding: 5px 15px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 400px) {
+  .counter-container {
+    height: 300px;
+  }
+
+  .counter-btns {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .counter-btns > div:not(:last-of-type) {
+    margin-bottom: 1rem;
+  }
+}
