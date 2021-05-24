@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'KoHo', sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.container h1 {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.btns-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.btns-container button {
+  padding: 3px 15px;
+  cursor: pointer;
+}
+
+.btns-container button:not(:last-of-type) {
+  margin-right: 15px;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.card {
+  width: 190px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.card h2 {
+  padding: 0.5rem 0;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card button {
+  width: 100%;
+  padding: 8px 20px;
+  border: none;
+  border-top: 1px solid #000;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 400px) {
+  .btns-container button:not(:last-of-type) {
+    margin-right: 5px;
+  }
+
+  .cards-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
