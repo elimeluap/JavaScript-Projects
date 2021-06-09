@@ -1,0 +1,41 @@
+* {
+  font-family: 'Avenir', sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #596275;
+}
+
+.text {
+  color: #f8a5c2;
+}
+
+.text,
+.title {
+  font-size: 30px;
+}
+
+.container {
+  display: none;
+  background: #f8a5c2;
+  padding: 1rem;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.key,
+.keycode,
+.location {
+  margin-bottom: 1rem;
+}
+
+.key,
+.keycode,
+.location,
+.which {
+  font-size: 20px;
+}
