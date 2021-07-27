@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+}
+
+.container {
+  width: 100%;
+  max-width: 300px;
+  color: deepskyblue;
+  padding: 15px 30px;
+  border: 2px solid deepskyblue;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#timeBox {
+  margin-bottom: 5px;
+  font-size: 40px;
+}
+
+#dateBox {
+  font-size: 20px;
+}
