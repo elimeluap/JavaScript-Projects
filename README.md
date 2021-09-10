@@ -7,3 +7,4 @@ Various projects to practice JavaScript
 | :-: | :----------------------------: | :-------: |
 | 01  |       [Counter](https://github.com/elimeluap/JavaScript-Projects/tree/master/Counter)       | [Live Demo](https://codepen.io/peantoine-dev/full/oNwBLgd)  |
 | 02  |     [Color generator](https://github.com/elimeluap/JavaScript-Projects/tree/master/Color%20generator)    | [Live Demo](https://codepen.io/peantoine-dev/full/zYzNBzp)  |
+| 03  |     [Items filter](https://github.com/elimeluap/JavaScript-Projects/tree/master/Items%20filter)    | [Live Demo](https://codepen.io/peantoine-dev/full/qBjmONj)  |
