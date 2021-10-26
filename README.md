@@ -1,6 +1,12 @@
 # JavaScript Projects
 
-Various projects to practice JavaScript
+## About the project
+
+Various small projects to practice Vanilla JavaScript.
+
+All the projects are hosted on my CodePen.
+
+You can find the links below.
 
 |  #  |                                              Project                                              |                         Live Demo                          |
 | :-: | :-----------------------------------------------------------------------------------------------: | :--------------------------------------------------------: |
