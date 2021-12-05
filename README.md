@@ -15,3 +15,4 @@ You can find the links below.
 | 03  |    [Items filter](https://github.com/elimeluap/JavaScript-Projects/tree/master/Items%20filter)    | [Live Demo](https://codepen.io/peantoine-dev/full/qBjmONj) |
 | 04  | [Loading battery](https://github.com/elimeluap/JavaScript-Projects/tree/master/Loading%20battery) | [Live Demo](https://codepen.io/peantoine-dev/full/YzQVjYa) |
 | 05  |   [Typing effect](https://github.com/elimeluap/JavaScript-Projects/tree/master/Typing%20effect)   | [Live Demo](https://codepen.io/peantoine-dev/full/ExXvyZa) |
+| 06  |  [User generator](https://github.com/elimeluap/JavaScript-Projects/tree/master/User%20generator)  | [Live Demo](https://codepen.io/peantoine-dev/full/RwLrWzp) |
